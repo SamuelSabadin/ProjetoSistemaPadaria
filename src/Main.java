@@ -12,6 +12,7 @@ public class Main
         {
             System.out.println("Deu errado");
         }
+        System.out.println("Bem-vindo à padoca");
         Produto p1 = new Produto("Massa crocante e recheada","Torta",8.00,10,"1234567890123");
         p1.setImagem(new ImageIcon("imgs/torta.jpeg"));
         Produto p2 = new Produto("Pão macio com casca crocante.","Pao francês",6.00,10,"2345678901234");
